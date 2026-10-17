@@ -61,16 +61,6 @@ To reproduce other examples from the article, simply modify the acquisition date
 
 <https://opensky-network.org/>
 
-## Repository Structure
-
-```text
-├── Smart_download.ipynb        # Sentinel-1 download workflow
-├── SAR_processing.ipynb        # Aircraft processing and Doppler calculations
-├── Example_Data/               # Example outputs
-├── Figures/                    # Generated figures
-└── README.md
-```
-
 ## Citation
 
 (When the article comes out there will be a citation to it here)
