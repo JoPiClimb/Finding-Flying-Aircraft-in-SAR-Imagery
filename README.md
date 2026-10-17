@@ -28,7 +28,7 @@ For each Sentinel-1 acquisition, the workflow:
 
 ## Example: BAW14K
 
-An example is included for the aircraft **BAW14K**. By providing valid:
+An example **Sentinel1_Aircraft_Doppler_Visualisation.ipynb** is included for the aircraft **BAW14K**. By providing valid:
 
 - Copernicus Data Space credentials
 - OpenSky/Trino credentials
