@@ -26,22 +26,6 @@ For each Sentinel-1 acquisition, the workflow:
    - Doppler search areas
    - The observed SAR signatures
 
-## Example: BAW14K
-
-An example **Sentinel1_Aircraft_Doppler_Visualisation.ipynb** is included for the aircraft **BAW14K**. By providing valid:
-
-- Copernicus Data Space credentials
-- OpenSky/Trino credentials
-
-and running the notebooks, the workflow will automatically generate the SAR image containing:
-
-- The ADS-B aircraft position
-- The predicted Doppler search area
-- The aircraft track and heading
-- The corresponding aircraft signature in the SAR image
-
-Furthermore, the file **results_statistics.ipynb** can be run to do the statistical analysis of the aircraft signature.
-
 ## Reproducing Other Results
 
 To reproduce other examples from the article, simply modify the acquisition dates in the notebook configuration section. The workflow will then download Sentinel-1 scenes for the selected period, retrieve matching aircraft data, and generate the corresponding SAR visualizations.
